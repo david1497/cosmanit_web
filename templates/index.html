@@ -29,9 +29,11 @@
             <div class="flip-card" onclick="toggleFlip(this)">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <i class="fas {{ service.icon }} service-icon"></i>
                         <h3>{{ service.title }}</h3>
                         <p>{{ service.short }}</p>
+                        <img src="{{ url_for('static', filename='service_icons/' ~ service.icon) }}"
+                        alt="{{ service.title }} icon"
+                        class="service-gif-icon">
                     </div>
                     <div class="flip-card-back">
                         <button class="close-btn" onclick="event.stopPropagation(); toggleFlip(this.closest('.flip-card'));">×</button>

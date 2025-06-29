@@ -12,55 +12,55 @@ def home():
                 'title': 'Data Science & Advanced Analytics', 
                 'short': 'Unlock insights', 
                 'details': 'We analyze your data to discover trends and drive business decisions.',
-                'icon': 'bi.png'
+                'icon': 'data_science.gif'
             },
             {
                 'title': 'Machine Learning & AI', 
                 'short': 'Move to the cloud', 
                 'details': 'We help you transition to scalable, secure cloud environments.',
-                'icon': ''
+                'icon': 'machine_learning.gif'
             },
             {
                 'title': 'Industry-Specific Analytics', 
                 'short': 'Smarter solutions', 
                 'details': 'We guide your AI initiatives from idea to deployment.',
-                'icon': ''
+                'icon': 'industry_specific_analytics.gif'
             },
             {
                 'title': 'Business Intelligence & Reporting', 
                 'short': 'Automation & CI/CD', 
                 'details': 'Streamline your software delivery with best DevOps practices.',
-                'icon': ''
+                'icon': 'bi_reporting.gif'
             },
             {
                 'title': 'Data Engineering', 
                 'short': 'Stay protected', 
                 'details': 'Risk assessments, vulnerability scanning, and incident response.',
-                'icon': ''
+                'icon': 'data_engineering.gif'
             },
             {
                 'title': 'Data Infrastructure & Cloud Solutions', 
                 'short': 'Modern web apps', 
                 'details': 'Fast, responsive websites tailored to your business.',
-                'icon': ''
+                'icon': 'data_infra_cloud.gif'
             },
             {
                 'title': 'Data Strategy & Governance', 
                 'short': 'iOS & Android', 
                 'details': 'Cross-platform mobile app design and development.',
-                'icon': ''
+                'icon': 'strategy.gif'
             },
             {
                 'title': 'Training & Enablement', 
                 'short': 'Make better decisions', 
                 'details': 'Build dashboards and data visualizations for strategic insights.',
-                'icon': ''
+                'icon': 'trainings.gif'
             },
             {
                 'title': 'R&D / Innovation', 
                 'short': 'Efficiency boost', 
                 'details': 'Use Robotic Process Automation to eliminate repetitive tasks.',
-                'icon': ''
+                'icon': 'research.gif'
             },
         ],
         'team': [
