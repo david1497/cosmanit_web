@@ -5,8 +5,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     company_info = {
-        'name': 'CosmanIT',
-        'core_values': ['Integrity', 'Innovation', 'Excellence'],
+        'name': 'Cosman-IT',
+        'core_values': ['Dedication', 'Innovation', 'Perseverence', 'Transparency'],
         'services': [
             {
                 'title': 'Data Science & Advanced Analytics', 
@@ -109,12 +109,47 @@ def home():
         # Add 4 more team members similarly
         ],
         'contacts': {
-            'email': 'info@mycompany.com',
+            'email': 'team@cosman-it.com',
             'phone': '+123456789',
             'address': '123 Business St, City, Country'
         }
     }
     return render_template("index.html", company=company_info)
+
+
+@app.route('/send-message', methods=['POST'])
+def send_message():
+    name = request.form['name']
+    email = request.form['email']
+    message = request.form['message']
+
+    # 🌐 Stub - later: send email using SendGrid
+    print(f"Message from {name} <{email}>: {message}")
+    flash("Your message has been sent successfully!")
+
+    return redirect('/')
+
+
+# Later: Add SendGrid Integration
+# You’ll install SendGrid with:
+
+# bash
+# Copy
+# Edit
+# pip install sendgrid
+# Then inside the send_message() route, replace the stub with:
+
+# python
+# Copy
+# Edit
+# sg = SendGridAPIClient(os.getenv('SENDGRID_API_KEY'))
+# email_message = Mail(
+#     from_email='no-reply@yourdomain.com',
+#     to_emails='your@email.com',
+#     subject=f"New Contact Message from {name}",
+#     html_content=f"<strong>From:</strong> {name} ({email})<br><br><strong>Message:</strong><br>{message}"
+# )
+# response = sg.send(email_message)
 
 
 if __name__ == '__main__':
