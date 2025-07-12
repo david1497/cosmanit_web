@@ -16,9 +16,11 @@
     {% endwith %}
 
     <!-- Section 1: Company Info -->
+    <!-- Section 1: Company Info -->
     <div class="section" style="background-color: #e3f2fd;">
         <h1>{{ company.name }}</h1>
-        <img src="{{ url_for('static', filename='logo.png') }}" alt="Company Logo" class="logo">
+        <img src="{{ url_for('static', filename='citco_logo.png') }}" alt="Company Logo" class="logo">
+        <!-- <h3><i>Data - Our Passion</i></h3> -->
         <div class="values">
             <h3>Our Core Values</h3>
             <div class="core-values-row">
@@ -45,8 +47,8 @@
                     </div>
                     <div class="flip-card-back">
                         <button class="close-btn" onclick="event.stopPropagation(); toggleFlip(this.closest('.flip-card'));">×</button>
-                        <h4>{{ service.title }}</h4>
-                        <p>{{ service.details }}</p>
+                        <h4 style="margin: auto;">{{ service.title }}</h4>
+                        <p style="text-align: left;">{{ service.details | replace('<br>', '<br>') | safe }}</p>
                     </div>
                 </div>
             </div>

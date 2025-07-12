@@ -10,56 +10,110 @@ def home():
         'services': [
             {
                 'title': 'Data Science & Advanced Analytics', 
-                'short': 'Unlock insights', 
-                'details': 'We analyze your data to discover trends and drive business decisions.',
+                'short': 'Turn raw data into predictive insights that drive smarter business decisions', 
+                'details': """
+                🔍 1. Predictive Modeling<br>
+                📈 2. Customer Segmentation<br>
+                🧠 3. Natural Language Processing (NLP)<br>
+                ⚙️ 4. Time Series Forecasting<br>
+                💡 5. Anomaly Detection<br>
+                """,
                 'icon': 'data_science.gif'
             },
             {
                 'title': 'Machine Learning & AI', 
-                'short': 'Move to the cloud', 
-                'details': 'We help you transition to scalable, secure cloud environments.',
+                'short': 'Build intelligent systems with scalable, ethical, and business-ready AI solutions', 
+                'details': """
+                🔄 1. ML Models Auditing<br>
+                🧠 2. AI-Powered Recommendation Systems<br>
+                🗣️ 3. Conversational AI & Chatbots<br>
+                🏗️ 4. ML Model Deployment & MLOps<br>
+                🛡️ 5. Responsible AI & Model Explainability<br>
+                🤖 6. RAG and Agents<br>
+                """,
                 'icon': 'machine_learning.gif'
             },
             {
                 'title': 'Industry-Specific Analytics', 
-                'short': 'Smarter solutions', 
-                'details': 'We guide your AI initiatives from idea to deployment.',
+                'short': "Deliver tailored analytics solutions to solve your industry's unique challenges", 
+                'details': """
+                🏦 1. Financial Services & Risk Analytics<br>
+                🧱 2. Construction & Real Estate Analytics<br>
+                🏃‍♂️ 3. Sports Analytics <br>
+                🚚 4. Fleet & Vehicle Data Analytics<br>
+                📦 5. Supply Chain & Logistics Optimization<br>
+                """,
                 'icon': 'industry_specific_analytics.gif'
             },
             {
                 'title': 'Business Intelligence & Reporting', 
-                'short': 'Automation & CI/CD', 
-                'details': 'Streamline your software delivery with best DevOps practices.',
+                'short': 'Transform data into actionable insights through dashboards, KPIs, and storytelling', 
+                'details': """
+                📊 1. Interactive Dashboard Development<br>
+                🧩 2. KPI Design & Performance Tracking<br>
+                📥 3. Automated Reporting Pipelines<br>
+                💡 4. Storytelling & Insight Communication<br>
+                ⚙️ 5. Dashboard Maintenance & Support<br>
+                """,
                 'icon': 'bi_reporting.gif'
             },
             {
                 'title': 'Data Engineering', 
-                'short': 'Stay protected', 
-                'details': 'Risk assessments, vulnerability scanning, and incident response.',
+                'short': 'Build reliable, scalable data systems that power trusted business insights', 
+                'details': """
+                🧹 1. Data Cleaning & Transformation<br>
+                📏 2. Data Quality & Validation Frameworks<br>
+                🗃️ 3. Data Warehousing Solutions<br>
+                🏗️ 4. Data Pipeline Design & Development<br>
+                ⚙️ 5. Infrastructure Automation & DataOps<br>
+                """,
                 'icon': 'data_engineering.gif'
             },
             {
                 'title': 'Data Infrastructure & Cloud Solutions', 
-                'short': 'Modern web apps', 
-                'details': 'Fast, responsive websites tailored to your business.',
+                'short': 'Empower your business with fast, secure, and scalable cloud infrastructure solutions', 
+                'details': """
+                ☁️ 1. Cloud Data Platform Architecture<br>
+                🔁 2. Cloud Migration & Modernization<br>
+                🧩 3. Hybrid & Multi-Cloud Integration<br>
+                🛠️ 4. Monitoring & Reliability Engineering<br>
+                """,
                 'icon': 'data_infra_cloud.gif'
             },
             {
                 'title': 'Data Strategy & Governance', 
-                'short': 'iOS & Android', 
-                'details': 'Cross-platform mobile app design and development.',
+                'short': 'Ensure trusted, high-quality, well-governed data through strategic control frameworks', 
+                'details': """
+                🧭 1. Enterprise Data Strategy Development<br>
+                🏛️ 2. Data Governance Framework Design<br>
+                📚 3. Data Cataloging & Lineage Mapping<br>
+                🪪 4. Master Data Management (MDM)<br>
+                📏 5. Data Quality Management<br>
+                🔒 6. Access & Role-Based Permissions<br>
+                """,
                 'icon': 'strategy.gif'
             },
             {
                 'title': 'Training & Enablement', 
-                'short': 'Make better decisions', 
-                'details': 'Build dashboards and data visualizations for strategic insights.',
+                'short': 'Empower teams with skills to confidently use and govern data', 
+                'details': """
+                📈 1. Change Management & Data Literacy<br>
+                💻 2. BI Tool Training (Power BI, Qlik, etc.)<br>
+                📐 3. Governance & Compliance Training<br>
+                🗂️ 4. Documentation & Knowledge Base<br>
+                """,
                 'icon': 'trainings.gif'
             },
             {
                 'title': 'R&D / Innovation', 
-                'short': 'Efficiency boost', 
-                'details': 'Use Robotic Process Automation to eliminate repetitive tasks.',
+                'short': 'Explore, prototype, and scale innovative data solutions using emerging technologies', 
+                'details': """
+                🧪 1. Data Innovation Labs<br>
+                🤖 2. AI/ML Proof-of-Concept Development<br>
+                🌐 3. Emerging Tech (LLMs, Graph, etc.)<br>
+                🧠 4. Cognitive Services Integration<br>
+                🧱 5. Data Product Design & Experimentation
+                """,
                 'icon': 'research.gif'
             },
         ],
@@ -86,7 +140,7 @@ def home():
                 'cv_file': 'vadim_cosman.pdf',
             },
             {
-                'name': 'Vlad Statila',
+                'name': 'Vlad Stratila',
                 'role': 'Back-End Developer',
                 'short': '@ CosmanIT',
                 'photo': 'vlad_stratila.jpeg',
